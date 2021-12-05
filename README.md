@@ -1,15 +1,15 @@
 #### It is recommended to launch from the provided PowerShell or BASH script, settings can be changed in these scripts.
 
 
-This program is used to combine CSV and format them appropriately for use in
-LAW document software. While somewhat flexible work is needed to make it truly
-general and robust. If you have questions about appropriate usage
-contact me at [jacobvanzella@gmail.com]
+This program is used to combine CSV and format them appropriately for use in\
+LAW document software. While somewhat flexible work is needed to make it truly\
+general and robust. If you have questions about appropriate usage\
+contact me at jacobvanzella@gmail.com
 
-
+```
 Usage: LAWbox 	[-D delete] [--di delimiter [CHAR]] [--do delimiter [CHAR]] [-h help]
-					[-i input [INPUT_PATH]][-n no-copy] [-o output [OUTPUT_PATH]]
-					[-r regex [REG]] [--qi quotechar [CHAR]] [--qo quotechar [CHAR]] [-s singeDir]
+				[-i input [INPUT_PATH]][-n no-copy] [-o output [OUTPUT_PATH]]
+				[-r regex [REG]] [--qi quotechar [CHAR]] [--qo quotechar [CHAR]] [-s singeDir]
 
 Combine all CSV files in specified directory and appends appropriate labeling.
 Assumed input/output delimiter is a comma.
@@ -56,3 +56,4 @@ Assumed input/output delimiter is a comma.
 
 -s						Consolodates all CSV files into a single output directory (no sub-directories).
 --compiled-dir
+```
